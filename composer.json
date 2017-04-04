@@ -4,12 +4,7 @@
   "license": "MIT",
   "description": "bluz twitter auth module",
   "require": {
-    "bluzphp/composer-plugin": "~1.0",
-    "bluzphp/module-auth": "~1.0"
-  },
-  "extra": {
-    "bluz": {
-      "module_name": "twitter"
-    }
+    "bluzphp/composer-plugin": "~2.0",
+    "bluzphp/module-auth": "~2.0"
   }
 }
