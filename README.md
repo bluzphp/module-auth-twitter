@@ -16,12 +16,15 @@ Usage
 -------------------------
 ### Install module
 To install the module run the command:
-  
 
     $ composer require bluzphp/module-auth-twitter
 
+### Configure
+Create an application at Applications page (https://apps.twitter.com/), 
+than setup *Consumer Key (API Key)* and *Consumer Secret (API Secret)* 
+inside *Twitter* section of the `auth.php` configuration.
+
 ### Remove module
 To remove the module, run the command:
-    
 
     $ composer remove bluzphp/module-auth-twitter
