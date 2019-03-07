@@ -21,6 +21,6 @@ return function () {
      */
     ?>
     <a href="<?=Router::getUrl('auth', 'auth', ['provider' => 'twitter'])?>"
-       class="btn fa fa-twitter-square fa-2x"></a>
+       class="btn fab fa-twitter-square fa-2x"></a>
     <?php
 };
