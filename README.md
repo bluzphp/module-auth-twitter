@@ -1,8 +1,6 @@
 # Module auth-twitter for Bluz Skeleton
 ## Achievements
 
-[![PHP >= 7.1+](https://img.shields.io/packagist/php-v/bluzphp/module-auth-twitter.svg?style=flat)](https://php.net/)
-
 [![Latest Stable Version](https://img.shields.io/packagist/v/bluzphp/module-auth-twitter.svg?label=version&style=flat)](https://packagist.org/packages/bluzphp/module-auth-twitter)
 
 [![Build Status](https://img.shields.io/travis/bluzphp/module-auth-twitter/master.svg?style=flat)](https://travis-ci.org/bluzphp/module-auth-twitter)
