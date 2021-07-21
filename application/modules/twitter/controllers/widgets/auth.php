@@ -1,4 +1,5 @@
 <?php
+
 /**
  * @author   Anton Shevchuk
  * @created  22.10.12 18:40
@@ -21,6 +22,6 @@ return function () {
      */
     ?>
     <a href="<?=Router::getUrl('auth', 'auth', ['provider' => 'twitter'])?>"
-       class="btn fab fa-twitter-square fa-2x"></a>
+       class="bi bi-twitter h1 me-1"></a>
     <?php
 };
