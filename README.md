@@ -21,10 +21,13 @@ php ./vendor/bin/bluzman module:install auth-twitter
 
 ### Configure
 Create an application at Applications page (https://apps.twitter.com/), 
-than setup *Consumer Key (API Key)* and *Consumer Secret (API Secret)* 
+then setup *Consumer Key (API Key)* and *Consumer Secret (API Secret)* 
 inside *Twitter* section of the `auth.php` configuration.
 
-
+For *Callback URL* should use URL like this:
+```
+http(s)://your-domain-here/auth/auth/provider/twitter
+```
 
 ### Remove module
 To remove the module, run the command:
