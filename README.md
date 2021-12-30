@@ -1,11 +1,9 @@
 # Module auth-twitter for Bluz Skeleton
 ## Achievements
 
-[![PHP >= 7.1+](https://img.shields.io/packagist/php-v/bluzphp/module-auth-twitter.svg?style=flat)](https://php.net/)
-
 [![Latest Stable Version](https://img.shields.io/packagist/v/bluzphp/module-auth-twitter.svg?label=version&style=flat)](https://packagist.org/packages/bluzphp/module-auth-twitter)
 
-[![Build Status](https://img.shields.io/travis/bluzphp/module-auth-twitter/master.svg?style=flat)](https://travis-ci.org/bluzphp/module-auth-twitter)
+[![Build Status](https://img.shields.io/travis/bluzphp/module-auth-twitter/master.svg?style=flat)](https://travis-ci.com/bluzphp/module-auth-twitter)
 
 [![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/bluzphp/module-auth-twitter.svg?style=flat)](https://scrutinizer-ci.com/g/bluzphp/module-auth-twitter/)
 
@@ -18,17 +16,22 @@
 To install the module run the command:
 
 ```bash
-php /vendor/bin/bluzman module:install auth-twitter
+php ./vendor/bin/bluzman module:install auth-twitter
 ```
 
 ### Configure
 Create an application at Applications page (https://apps.twitter.com/), 
-than setup *Consumer Key (API Key)* and *Consumer Secret (API Secret)* 
+then setup *Consumer Key (API Key)* and *Consumer Secret (API Secret)* 
 inside *Twitter* section of the `auth.php` configuration.
+
+For *Callback URL* should use URL like this:
+```
+http(s)://your-domain-here/auth/auth/provider/twitter
+```
 
 ### Remove module
 To remove the module, run the command:
 
 ```bash
-php /vendor/bin/bluzman module:remove auth-twitter
+php ./vendor/bin/bluzman module:remove auth-twitter
 ```
